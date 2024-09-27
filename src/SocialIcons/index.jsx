@@ -36,7 +36,7 @@ const SocialIcons = () => {
       <FontAwesomeIcon 
         icon={faPhone} 
         className="social-icon phone"
-        onClick={() => openLink('tel:+201205152055')}
+        onClick={() => openLink('tel:+201156540700')}
       />
     </div>
   );
