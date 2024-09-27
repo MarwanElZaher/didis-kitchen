@@ -31,6 +31,7 @@ const SocialIcons = () => {
       <FontAwesomeIcon 
         icon={faYoutube} 
         className="social-icon youtube"
+        style={{color: "red"}}
         onClick={() => openLink('https://www.youtube.com/@rehameldidi')}
       />
       <FontAwesomeIcon 
