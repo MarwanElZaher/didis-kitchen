@@ -1,9 +1,9 @@
 {
-  "name": "didis-kitchen",
+  "name": "almatbakh",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/MarwanElZaher/didis-kitchen",
+  "homepage": "https://github.com/MarwanElZaher/almatbakh",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
