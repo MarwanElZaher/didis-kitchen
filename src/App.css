@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'ibm-plex-sans', sans-serif;
 }
 
 #root {
@@ -11,8 +12,19 @@
   padding: 0 15px;
 }
 
+section {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .show-menu {
-  padding: 20px 60px;
+  padding: 20px 30px;
   border: 2px solid black;
   border-radius: 12px;
   font-weight: 600;
@@ -39,6 +51,11 @@
   overflow: hidden;
 }
 
+.buttons-container h3 {
+  color: white;
+  text-shadow: 1px 1px 6px gray;
+}
+
 .apron-img {
   position: absolute;
   top: 4%;
@@ -50,14 +67,23 @@
   z-index: 1;
 }
 
+.main-container-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10vh;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 10vh;
+  gap: 7vh;
   width: 100%;
   overflow: hidden;
+  align-items: center;
 }
+
 
 /* Logo scaling animation */
 .main-container img {
@@ -82,7 +108,7 @@
 /* Logo scaling keyframes */
 @keyframes logoScale {
   0% {
-    transform: scale(2);
+    transform: scale(0.8);
     /* Start at normal size */
   }
 
@@ -92,7 +118,7 @@
   }
 
   100% {
-    transform: scale(2);
+    transform: scale(0.8);
     /* Return to normal size */
   }
 }

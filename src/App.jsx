@@ -11,23 +11,26 @@ function App() {
 
   return (
     <section>
-      <div className='main-container'>
-        {/* <div className='apron-img'>
+      <div className='main-container-wrapper'>
+        <div className='main-container'>
+          {/* <div className='apron-img'>
           <img src={apron} alt="apron img" />
         </div> */}
-        <img src={NewLogo} alt='logo' />
+          <img src={NewLogo} alt='logo' />
 
-        <div className='buttons-container'>
-          <div className='links-container'>
-            <h2>Reach Out Through:</h2>
-            <SocialIcons />
-          </div>
 
         </div>
         <div className='button-container'>
           <button className='show-menu' onClick={openMenu}>
             View Menu
           </button>
+        </div>
+        <div className='buttons-container'>
+          <div className='links-container'>
+            <h3>Reach Out Through:</h3>
+            <SocialIcons />
+          </div>
+
         </div>
       </div>
     </section>

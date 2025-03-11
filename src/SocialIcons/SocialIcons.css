@@ -1,23 +1,26 @@
 .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .social-icon {
-    font-size: 40px;
-    cursor: pointer;
-  }
-  
-  .whatsapp {
-    color: #25D366;
-  }
-  
-  .instagram {
-    color: #C13584;
-  }
-  
-  .facebook {
-    color: #4267B2;
-  }
-  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  padding: 10px;
+  border-radius: 36%;
+}
+
+.whatsapp {
+  color: #25D366;
+}
+
+.instagram {
+  color: #C13584;
+}
+
+.facebook {
+  color: #4267B2;
+}
