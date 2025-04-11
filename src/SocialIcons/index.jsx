@@ -11,31 +11,31 @@ const SocialIcons = () => {
 
   return (
     <div className="social-icons">
-      <FontAwesomeIcon 
-        icon={faWhatsapp} 
+      <FontAwesomeIcon
+        icon={faWhatsapp}
         className="social-icon whatsapp"
         onClick={() => openLink('https://wa.me/+201205152055')}
       />
 
-      <FontAwesomeIcon 
-        icon={faInstagram} 
+      <FontAwesomeIcon
+        icon={faInstagram}
         className="social-icon instagram"
-        onClick={() => openLink('https://www.instagram.com/reham_eldidi/')}
+        onClick={() => openLink('https://www.instagram.com/ddskitchen_eg/')}
       />
 
-      <FontAwesomeIcon 
-        icon={faFacebook} 
+      <FontAwesomeIcon
+        icon={faFacebook}
         className="social-icon facebook"
         onClick={() => openLink('https://www.facebook.com/rehameldidii')}
       />
-      <FontAwesomeIcon 
-        icon={faYoutube} 
+      <FontAwesomeIcon
+        icon={faYoutube}
         className="social-icon youtube"
-        style={{color: "red"}}
+        style={{ color: "red" }}
         onClick={() => openLink('https://www.youtube.com/@rehameldidi')}
       />
-      <FontAwesomeIcon 
-        icon={faPhone} 
+      <FontAwesomeIcon
+        icon={faPhone}
         className="social-icon phone"
         onClick={() => openLink('tel:+201156540700')}
       />
